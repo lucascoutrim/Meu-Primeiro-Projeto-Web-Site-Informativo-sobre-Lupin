@@ -1,0 +1,125 @@
+/*Zerando a margem*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* definiçoes gerais*/
+
+body {
+    background: white;
+    color: red;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Times New Roman', serif, Arial;
+}
+
+/* Conteudo principal */
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+main .social-media {
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+main form input {
+    background: #dcdcdc;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: black(166, 166, 166);
+    font-size: 1rem;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #696969;
+    color: black;
+    font-size: 1.1rem;
+    transition: all .3 ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background: #828282;
+}
+
+section.imagens {
+    display: flex;
+    align-items: flex-end;
+    padding: 4rem;
+
+}
+nav>span>a {
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+nav>span>a:hover,
+.selecionado a {
+    background: red;
+    text-decoration: none;
+    border-radius: 10px 20px;
+    font-size: 1.9rem;
+    transition: all .3 ease-in-out;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.sombra {
+    box-shadow: 3px 3px 3px 3px #d3d3d3;
+}

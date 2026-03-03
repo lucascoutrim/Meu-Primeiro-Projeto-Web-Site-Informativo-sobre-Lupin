@@ -1,0 +1,83 @@
+/*Zerando a margem*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* definiçoes gerais*/
+
+body {
+    font-family: 'Times New Roman', serif, Arial;
+    background-color: rgb(red, green, blue);
+}
+
+/* cabeçalho */
+header {
+    font-size: 25px;
+    background: #ff4500;
+    padding: 40px;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    border: 25px solid #ee4000;
+}
+
+/*conteúdo principal*/
+main {
+    font-size: 25px;
+    background-color: #d3d3d3;
+    border: 17px solid #a9a9a9a9;
+    text-align: center;
+}
+
+.imagem {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.sombra {
+    box-shadow: 2.7px 2.7px 2.8px 2.8px black;
+}
+
+/* Rodapé */
+footer {
+    background: #ff4500;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    font-size: 25px;
+    border: 30px solid #ee4000;
+}
+
+p {
+    margin: 45px;
+    right: auto;
+    font-size: 25px;
+}
+
+a {
+    color: black;
+}
+
+nav>span>a {
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+nav>span>a:hover,
+.selecionado a {
+    background: #4169e1;
+    text-decoration: none;
+    border-radius: 10px 20px;
+}
+
+footer>a:hover,
+.selecionado a {
+    background: #4169e1;
+    text-decoration: none;
+    border-radius: 10px 20px;
+}
